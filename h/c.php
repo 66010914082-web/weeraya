@@ -1,0 +1,23 @@
+<?php
+	session_start();
+?>
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>นางสาววีรญา เลาต๋า (เนย)</title>
+</head>
+
+<body>
+
+<h1>c.php</h1>
+<?php
+	echo @$_SESSION['name'] . "<br>";
+	echo @$_SESSION['nickname'] . "<br>";
+	
+?>
+</body>
+</body>
+</html>
